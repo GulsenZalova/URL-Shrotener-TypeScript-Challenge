@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: mediumpurple;
+}
+.container{
+ display: flex;
+ 
+}
+
+.shortner-container{
+  margin: 20px auto;
+  width:80%;
+}
+h1{
+  text-align: center;
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+form{
+  background-color: indigo;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10px;
+  border-radius: 10px;
+}
+
+
+.urlInput{
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.urlInput input{
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  color: indigo;
+}
+.urlBtn{
+  width:15%;
+  display: flex;
+  align-items: center;
+}
+::placeholder{
+  font-size: 15px;
+  color: indigo;
+
+}
+.urlBtn button{
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  transition: all ease .3s;
+}
+
+.urlBtn button:hover{
+  background-color: white;
+  border: 1px solid indigo;
+  color: indigo;
+}
+
+.shortner-link-groups{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shortner-link-group{
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.short-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  font-size: 17px;
+  color: indigo;
+}
+
+.original-link{
+  color: darkslategray;
+  font-size: 17px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.copyBtn{
+  padding: 15px 50px;
+  border-radius: 10px;
+  border: none;
+  background-color:indigo;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+}
